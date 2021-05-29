@@ -1,0 +1,24 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  margin-right: 93px;
+  animation-name: backInLeft;
+  animation-duration: 1000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 50;
+}
+.logo__black {
+  color: var(--black-color);
+}
+.logo__white {
+  color: var(--header-background-color);
+}

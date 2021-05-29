@@ -1,0 +1,68 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  font-family: var(--main-font);
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+.active {
+  color: var(--accent-color);
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: var(--accent-color);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+  }
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  @media screen and (min-width: 768px) {
+    .team & {
+      display: flex;
+    }
+  }
+  .navigation & {
+    display: flex;
+  }
+  .about & {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
