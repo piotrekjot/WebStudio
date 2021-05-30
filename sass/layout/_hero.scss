@@ -2,7 +2,7 @@
   max-width: 1600px;
   height: auto;
   margin: 0 auto;
-  background-color: var(--footer-background-color);
+  background-color: $footer-background-color;
   background-size: cover;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -32,7 +32,7 @@
   padding: 118px 60px;
 }
 .hero__title {
-  font-family: var(--main-font);
+  font-family: $main-font;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -42,7 +42,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--header-background-color);
+  color: $header-background-color;
   margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {

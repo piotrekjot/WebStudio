@@ -1,5 +1,5 @@
 .team {
-  background-color: var(--background-btn-color);
+  background-color: $background-btn-color;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -10,7 +10,7 @@
 }
 .team__item {
   margin-top: 30px;
-  background-color: var(--header-background-color);
+  background-color: $header-background-color;
 }
 .team__img {
   display: block;
@@ -20,7 +20,7 @@
   max-width: 100%;
   height: auto;
   text-align: center;
-  background-color: var(--white);
+  background-color: $white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -31,7 +31,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-color);
+  color: $main-color;
   margin-bottom: 10px;
 }
 .team__duty {
@@ -40,7 +40,7 @@
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  color: $secondary-color;
   margin-bottom: 16px;
 }
 .team__social-list {
@@ -60,14 +60,14 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--social-color);
+  fill: $social-color;
   transition-property: fill, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    fill: var(--header-background-color);
-    background-color: var(--accent-color);
+    fill: $header-background-color;
+    background-color: $accent-color;
   }
 }
 .team_social-list {
@@ -93,7 +93,6 @@
     justify-content: center;
     margin-left: -30px;
   }
-
   .team__item {
     flex-basis: calc(100% / 2 - 30px);
     margin-left: 30px;

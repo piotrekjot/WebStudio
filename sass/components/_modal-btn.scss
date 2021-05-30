@@ -1,5 +1,5 @@
 .modal-btn {
-  font-family: var(--main-font);
+  font-family: $main-font;
   display: inline-block;
   min-width: 200px;
   min-height: 50px;
@@ -16,6 +16,6 @@
   letter-spacing: 0.06em;
   cursor: pointer;
   outline-style: none;
-  color: var(--header-background-color);
-  background-color: var(--accent-color);
+  color: $header-background-color;
+  background-color: $accent-color;
 }

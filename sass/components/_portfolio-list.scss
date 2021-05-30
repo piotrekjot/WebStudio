@@ -37,7 +37,7 @@
   overflow: hidden;
 }
 .portfolio__overlay-txt {
-  font-family: var(--main-font);
+  font-family: $main-font;
   font-weight: 400;
   line-height: 1.55;
   font-size: 18px;
@@ -46,8 +46,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: var(--overlay-color);
-  color: var(--header-background-color);
+  background-color: $overlay-color;
+  color: $header-background-color;
   height: 100%;
   // overflow: auto;
   padding-left: 24px;
@@ -66,9 +66,9 @@
 
 .portfolio__wrapper {
   padding: 20px 24px;
-  border: 1px solid var(--pj-border-color);
+  border: 1px solid $pj-border-color;
   border-top: none;
-  font-family: var(--main-font);
+  font-family: $main-font;
 }
 
 .portfolio__title {
@@ -78,7 +78,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-color);
+  color: $main-color;
   margin-bottom: 4px;
 }
 
@@ -87,7 +87,7 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  color: $secondary-color;
   // width: 322px;
   //height: 30px;
 }

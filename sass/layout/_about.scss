@@ -21,7 +21,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-color);
+  color: $main-color;
   margin-bottom: 10px;
 }
 .about__text {
@@ -29,7 +29,7 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-color);
+  color: $secondary-color;
 }
 
 .about__list {
