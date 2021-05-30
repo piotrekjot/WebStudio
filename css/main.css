@@ -966,6 +966,10 @@ img {
   padding-bottom: 24px;
 }
 
+.team__title {
+  margin-bottom: 90px;
+}
+
 @media screen and (min-width: 768px) {
   .team {
     display: flex;
