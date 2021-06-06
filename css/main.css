@@ -158,6 +158,7 @@ img {
   pointer-events: none;
   z-index: 100;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .is-open {
@@ -631,9 +632,6 @@ img {
     align-items: center;
     justify-content: flex-start;
   }
-  .mobile-social__item {
-    margin-right: 20px;
-  }
   .mobile-social__link {
     font-weight: 500;
     font-size: 18px;
@@ -652,7 +650,7 @@ img {
 
 .hero {
   max-width: 1600px;
-  height: auto;
+  height: 600;
   margin: 0 auto;
   background-color: #2f303a;
   background-size: cover;
@@ -702,6 +700,12 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/tablet/backgroundImg.jpg");
+  }
+  .hero__title {
+    width: 365px;
+    height: 84px;
+    font-size: 26px;
+    line-height: 42px;
   }
 }
 

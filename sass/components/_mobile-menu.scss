@@ -14,6 +14,7 @@
   pointer-events: none;
   z-index: 100;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 .is-open {
   opacity: 0;
@@ -89,5 +90,6 @@
   .mobile-menu,
   .burger__btn {
     display: none;
+
   }
 }

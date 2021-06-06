@@ -50,6 +50,7 @@
   pointer-events: none;
   z-index: 100;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .is-open {
@@ -526,9 +527,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-  }
-  .mobile-social__item {
-    margin-right: 20px;
   }
   .mobile-social__link {
     font-weight: 500;

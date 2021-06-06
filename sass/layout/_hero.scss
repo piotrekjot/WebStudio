@@ -1,6 +1,6 @@
 .hero {
   max-width: 1600px;
-  height: auto;
+  height: 600;
   margin: 0 auto;
   background-color: $footer-background-color;
   background-size: cover;
@@ -63,6 +63,12 @@
         rgba(47, 48, 58, 0.4)
       ),
       url("../images/tablet/backgroundImg.jpg");
+  }
+  .hero__title{
+    width: 365px;
+height: 84px;
+    font-size: 26px;
+line-height: 42px;
   }
 
   @media (min-device-pixel-ratio: 2),
